@@ -75,18 +75,19 @@
 
 .aligned-text {
     display:block;
-    line-height: 115px;
     letter-spacing: 30px;
+    line-height: 100%;
+    margin-bottom: 20px;
 }
 
 .aligned-text_center {
     text-align: center;
-    line-height: 115px;
+
 }
 
 .aligned-text_right {
     text-align: right;
-    line-height: 115px;
+    margin-bottom: 0;
 }
 
 .no-letter-spacing {
@@ -109,7 +110,7 @@
 
 .cover__description-text {
     color: white;
-    font-size: 22px;
+    font-size: 19px;
     word-spacing: 22px;
     text-transform: uppercase;
 }
