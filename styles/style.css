@@ -1,6 +1,6 @@
 /*header start*/
 .header {
-    padding: 92px 24px 96px 24px;
+    padding: 92px 24px 91px 24px;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     place-items: center;
@@ -9,8 +9,10 @@
 .header__links-list {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 35px;
     font-size: 18px;
+    margin-left: 23px;
+    white-space: nowrap;
 }
 
 .header__links-list-item {
@@ -27,16 +29,19 @@
 }
 
 .header__logo-image {
-    width: 148px;
+    width: 138px;
 }
 
 .address {
     font-size: 18px;
     font-style: normal;
+    line-height: 24.3px;
 }
 
 .header__address {
-    justify-self: end;  
+    justify-self: center;
+    margin-left: 95px;
+
 }
 
 /*header end*/
@@ -64,7 +69,7 @@
 
 .cover__title {
     position: relative;
-    padding: 165px 50px 0px 50px;
+    padding: 173px 50px 0px 50px;
     letter-spacing: 30px;
     color: white;
     font-family: Raleway;
@@ -77,12 +82,12 @@
     display:block;
     letter-spacing: 30px;
     line-height: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
 }
 
 .aligned-text_center {
     text-align: center;
-
+    margin-bottom: 21px;
 }
 
 .aligned-text_right {
@@ -110,20 +115,23 @@
 
 .cover__description-text {
     color: white;
-    font-size: 19px;
-    word-spacing: 22px;
+    font-size: 22px;
+    word-spacing: 18.5px;
+    line-height: 28px;
+    white-space: nowrap;
     text-transform: uppercase;
 }
 
 .bet-button {
     color: white;
     font-family: Raleway;
+    white-space: nowrap;
     font-size: 22px;
     line-height: 25.83px;
     text-transform: uppercase;
     border-color: black;
     border: 1px solid white;
-    padding: 12px 32px 11px 31px;
+    padding: 12px 31px 11px 32px;
 }
 /*cover end*/
 /*lots start*/
@@ -134,7 +142,7 @@
 
 .lots__heading {
    font-family: Raleway;
-   font-size: 30px;
+   font-size: 26.5px;
    text-transform: uppercase;
    margin: auto auto 27px 40px;
 }
@@ -222,13 +230,13 @@
 /*about start*/
 
 .about {
-    padding: 73px 24px 90px 24px;
+    padding: 127px 24px 90px 20px;
 }
 
 .about__column {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 25px;
+    gap: 18px;
     place-items: center;
 }
 
