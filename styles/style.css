@@ -154,6 +154,7 @@
 .lots__card-list {
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
     gap: 25px;
     align-items: center;
     justify-content: space-between;
