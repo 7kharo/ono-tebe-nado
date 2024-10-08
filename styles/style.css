@@ -140,7 +140,7 @@
 /*lots start*/
 
 .lots {
-    padding: 179px 24px 73px 24px;
+    padding: 179px 24px 43px 24px;
 }
 
 .lots__heading {
@@ -158,6 +158,7 @@
     align-items: center;
     justify-content: start;
     list-style: none;
+    margin-bottom: 30px;
 }
 
 .card-link {
@@ -213,18 +214,7 @@
 }
 
 .lots__look-more-link {
-    position: relative;
-    /*прошу прощения, вот этот момент несколько не понял.
-
-    если я правильно понимаю данный элемент вложен в <section class="lots">
-    и не входит в <article class = "card"> поэтому отдельно задал такие свойства
-    если убрать правило position: relative, то у меня игнорируется позиционирование
-    top и left
-    
-    прошу прощения еще раз, если я что-то не так понимаю
-    */
-    top: 30px;
-    left: 40px;
+    margin-left: 40px;
     font-family: Raleway, sans-serif;
     font-size: 20px;
     text-decoration: underline;
