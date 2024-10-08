@@ -177,7 +177,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
 }
 
 .card_type_film {
@@ -216,6 +215,7 @@
 .lots__look-more-link {
     position: relative;
     /*прошу прощения, вот этот момент несколько не понял.
+
     если я правильно понимаю данный элемент вложен в <section class="lots">
     и не входит в <article class = "card"> поэтому отдельно задал такие свойства
     если убрать правило position: relative, то у меня игнорируется позиционирование
