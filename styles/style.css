@@ -43,7 +43,6 @@
 .header__address {
     justify-self: center;
     margin-left: 95px;
-
 }
 
 /*header end*/
@@ -157,7 +156,7 @@
     flex-wrap: wrap;
     gap: 25px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     list-style: none;
 }
 
@@ -175,30 +174,22 @@
     width: 334px;
     height: 100%;
     min-height: 563px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
 }
     
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
 }
 
 .card__title {
@@ -224,6 +215,14 @@
 
 .lots__look-more-link {
     position: relative;
+    /*прошу прощения, вот этот момент несколько не понял.
+    если я правильно понимаю данный элемент вложен в <section class="lots">
+    и не входит в <article class = "card"> поэтому отдельно задал такие свойства
+    если убрать правило position: relative, то у меня игнорируется позиционирование
+    top и left
+    
+    прошу прощения еще раз, если я что-то не так понимаю
+    */
     top: 30px;
     left: 40px;
     font-family: Raleway, sans-serif;
